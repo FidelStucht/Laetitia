@@ -63,7 +63,27 @@ a:hover {
 .carousel-item {
   text-align: center;
 }
-
+footer {
+  margin: 60px 0;
+}
+footer .email-link {
+  text-decoration: none;
+  color: azure;
+  margin: 10px 10px 50px;
+  font-size: 24px;
+  padding: 20px;
+}
+footer .social-link a {
+  margin: 20px 20px;
+  background-color: grey;
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+}
+footer .social-link a:hover {
+  color: grey;
+  background: white;
+}
 #insta {
   font-size: 30px;
 }
@@ -95,6 +115,10 @@ a:hover {
   margin-top: 10px;
   background-color: #29252c;
 }
+.contact-box {
+  border: white solid 1px;
+  padding: 20px;
+}
 
 @media (min-width: 900px) {
   .homepageImage {
@@ -107,6 +131,9 @@ a:hover {
     display: none;
   }
   #cv {
+    display: none;
+  }
+  .contact-box {
     display: none;
   }
 }
