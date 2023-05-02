@@ -22,3 +22,15 @@ h2 {
   background-image: url("../images/homepage.JPG");
   filter: grayscale(100%);
 }
+.row {
+  text-align: center;
+}
+.rounded {
+  margin: 10px auto;
+  padding: auto;
+  width: 200px;
+  filter: grayscale(100%);
+}
+.rounded:hover {
+  filter: none;
+}
