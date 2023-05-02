@@ -47,6 +47,15 @@ a:hover {
 .rounded:hover {
   filter: none;
 }
+.img-fluid {
+  margin: 10px auto;
+  padding: auto;
+  width: 200px;
+  filter: grayscale(100%);
+}
+.img-fluid:hover {
+  filter: none;
+}
 .poem {
   display: block;
   margin: 10px 100px 10px 100px;
