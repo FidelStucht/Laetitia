@@ -47,6 +47,11 @@ a:hover {
 .rounded:hover {
   filter: none;
 }
+.poem {
+  display: block;
+  margin: 10px 100px 10px 100px;
+}
+
 #insta {
   font-size: 30px;
 }
