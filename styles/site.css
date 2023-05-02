@@ -60,6 +60,9 @@ a:hover {
   display: block;
   margin: 10px 100px 10px 100px;
 }
+.carousel-item {
+  text-align: center;
+}
 
 #insta {
   font-size: 30px;
@@ -80,6 +83,19 @@ a:hover {
   border-radius: 10px;
   margin-top: 10px;
 }
+#education {
+  border: grey solid 2px;
+  border-radius: 10px;
+  margin-top: 10px;
+  background-color: #29252c;
+}
+#experience {
+  border: grey solid 2px;
+  border-radius: 10px;
+  margin-top: 10px;
+  background-color: #29252c;
+}
+
 @media (min-width: 900px) {
   .homepageImage {
     display: center;
